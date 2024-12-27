@@ -26,9 +26,9 @@ jobs:
         run: docker login -u "radhikaschude" -p "Anadhika@1234"
 
       - name: Build docker image
-        run: docker build -t radhikachude/eureka-server .
+        run: docker build -t radhikaschude/eureka-server .
 
       - name: Publish image to docker hub
-        run: docker push radhikachude/eureka-server:latest
+        run: docker push radhikaschude/eureka-server:latest
 
  
